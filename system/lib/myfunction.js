@@ -131,4 +131,4 @@ m.reply = (text, chatId = m.chat, options = {}) => Buffer.isBuffer(text) ? conn.
 m.copy = () => exports.smsg(conn, M.fromObject(M.toObject(m)))
 m.copyNForward = (jid = m.chat, forceForward = false, options = {}) => conn.copyNForward(jid, m, forceForward, options)
 return m
-                                                               }
+}
